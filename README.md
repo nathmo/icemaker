@@ -5,7 +5,9 @@ This repo contains a firmware for an ice machine,plenty of picture of the inside
 ![image](https://github.com/user-attachments/assets/f469274f-db64-415c-8d3e-6b161a9eade4)
 
 this is my ice machine : https://www.gonser.ch/fr/machine-a-glacons-noir-12-kg/24-h/a-12385/
-I can't find a brand name and the only thing to identify it is the model : 600375 and the scoop motor marking : 50TYZ-E
+
+I can't find a brand name and the only thing to identify it is the model : 600375 
+and the scoop motor marking : 50TYZ-E
 
 # About
 I made theses because the scoop motor axis rusted and was jammed. I took it apart and cleaned it but it added play/backlash which prevented the "normal operation" as it was now working but the original firmware assumed the motor would always bouce back correctly when it reach an endswitch. This is a unipolar motor, the same kind that make the microwave table turn and they usually start up in a random direction. You can make them go the way you want if you "springload" them against the endswitch but this is not super good (the scoop has a crack now due to fatigue from this).
